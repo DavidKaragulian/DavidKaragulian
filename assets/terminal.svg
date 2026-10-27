@@ -1,17 +1,34 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-label="Terminal executando neofetch com o perfil de David Karagulian: Blue Team, Defesa Cibernética FIAP, suporte N1/N2, Linux, inglês C1, buscando vaga de SOC">
   <defs>
     <clipPath id="win"><rect width="1200" height="470" rx="14"/></clipPath>
-    <clipPath id="type"><rect x="96" y="70" width="0" height="30"><animate attributeName="width" from="0" to="118" begin="0.4s" dur="0.9s" fill="freeze" calcMode="discrete" values="0;15;30;44;59;74;88;103;118" keyTimes="0;.125;.25;.375;.5;.625;.75;.875;1"/></rect></clipPath>
+    <clipPath id="sh"><path d="M200 140 L300 172 V250 C300 312 258 352 200 376 C142 352 100 312 100 250 V172 Z"/></clipPath>
     <pattern id="scan" width="6" height="6" patternUnits="userSpaceOnUse"><rect width="6" height="3" fill="#4FD1C5"/></pattern>
+    <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4FD1C5" stop-opacity="0"/><stop offset=".85" stop-color="#E6FFFC" stop-opacity=".55"/><stop offset="1" stop-color="#E6FFFC" stop-opacity="0"/></linearGradient>
   </defs>
   <style>
     .m{font-family:'JetBrains Mono','SFMono-Regular',Consolas,'DejaVu Sans Mono','Liberation Mono',monospace;font-size:19px}
     .k{fill:#4FD1C5;font-weight:700}.v{fill:#D6E2F0}.d{fill:#6B7F99}.p{fill:#C792EA}
-    .l{opacity:0;animation:f .01s linear forwards}
-    @keyframes f{to{opacity:1}}
-    .cur{animation:b 1s steps(1) infinite}
-    @keyframes b{50%{opacity:0}}
-    @media (prefers-reduced-motion:reduce){.l{opacity:1;animation:none}.cur{animation:none}}
+    @keyframes ln0{0%,13.33%{opacity:0}13.93%,92%{opacity:1}95%,100%{opacity:0}}.ln0{animation:ln0 12.0s linear infinite}
+    @keyframes ln1{0%,14.17%{opacity:0}14.77%,92%{opacity:1}95%,100%{opacity:0}}.ln1{animation:ln1 12.0s linear infinite}
+    @keyframes ln2{0%,14.58%{opacity:0}15.18%,92%{opacity:1}95%,100%{opacity:0}}.ln2{animation:ln2 12.0s linear infinite}
+    @keyframes ln3{0%,15.42%{opacity:0}16.02%,92%{opacity:1}95%,100%{opacity:0}}.ln3{animation:ln3 12.0s linear infinite}
+    @keyframes ln4{0%,16.25%{opacity:0}16.85%,92%{opacity:1}95%,100%{opacity:0}}.ln4{animation:ln4 12.0s linear infinite}
+    @keyframes ln5{0%,17.08%{opacity:0}17.68%,92%{opacity:1}95%,100%{opacity:0}}.ln5{animation:ln5 12.0s linear infinite}
+    @keyframes ln6{0%,17.92%{opacity:0}18.52%,92%{opacity:1}95%,100%{opacity:0}}.ln6{animation:ln6 12.0s linear infinite}
+    @keyframes ln7{0%,18.75%{opacity:0}19.35%,92%{opacity:1}95%,100%{opacity:0}}.ln7{animation:ln7 12.0s linear infinite}
+    @keyframes ln8{0%,19.58%{opacity:0}20.18%,92%{opacity:1}95%,100%{opacity:0}}.ln8{animation:ln8 12.0s linear infinite}
+    @keyframes ln9{0%,20.42%{opacity:0}21.02%,92%{opacity:1}95%,100%{opacity:0}}.ln9{animation:ln9 12.0s linear infinite}
+    @keyframes ln10{0%,21.67%{opacity:0}22.27%,92%{opacity:1}95%,100%{opacity:0}}.ln10{animation:ln10 12.0s linear infinite}
+    @keyframes ln11{0%,23.33%{opacity:0}23.93%,92%{opacity:1}95%,100%{opacity:0}}.ln11{animation:ln11 12.0s linear infinite}
+    @keyframes type{0%,3.3%{transform:translateX(0);animation-timing-function:steps(8,end)}10.8%,94.9%{transform:translateX(124px)}95%,100%{transform:translateX(0)}}
+    .cover{animation:type 12.0s linear infinite}
+    @keyframes sweep{from{transform:translateY(-60px)}to{transform:translateY(250px)}}
+    .beam{animation:sweep 2.6s cubic-bezier(.45,0,.55,1) infinite}
+    @keyframes blink{50%{opacity:0}}
+    .cur{animation:blink 1s steps(1) infinite}
+    @keyframes pulse{0%,100%{opacity:1}50%{opacity:.2}}
+    .dot{animation:pulse 1.6s ease-in-out infinite}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}.cover,.beam{display:none}}
   </style>
   <g clip-path="url(#win)">
     <rect width="1200" height="470" fill="#0D1520"/>
@@ -21,34 +38,35 @@
   <text x="600" y="26" text-anchor="middle" class="m d" font-size="15">david@blue-team: ~</text>
 
   <text x="40" y="92" class="m p">~ $</text>
-  <text x="96" y="92" class="m v" clip-path="url(#type)">neofetch</text>
+  <text x="96" y="92" class="m v">neofetch</text>
+  <rect class="cover" x="92" y="70" width="140" height="30" fill="#0D1520"/>
 
-  <!-- escudo -->
-  <g class="l" style="animation-delay:1.6s">
+  <g class="ln0">
     <path d="M200 140 L300 172 V250 C300 312 258 352 200 376 C142 352 100 312 100 250 V172 Z" fill="url(#scan)" opacity=".85"/>
+    <g clip-path="url(#sh)"><rect class="beam" x="96" y="140" width="210" height="60" fill="url(#beam)"/></g>
     <path d="M200 140 L300 172 V250 C300 312 258 352 200 376 C142 352 100 312 100 250 V172 Z" fill="none" stroke="#4FD1C5" stroke-width="3"/>
     <rect x="174" y="236" width="52" height="44" rx="6" fill="#0D1520" stroke="#4FD1C5" stroke-width="3"/>
     <path d="M182 236 V220 a18 18 0 0 1 36 0 V236" fill="none" stroke="#4FD1C5" stroke-width="3"/>
-    <circle cx="200" cy="256" r="5" fill="#4FD1C5"/>
+    <circle cx="200" cy="256" r="5" fill="#4FD1C5" class="dot"/>
   </g>
 
   <g class="m">
-    <text x="400" y="150" class="l" style="animation-delay:1.7s"><tspan class="k">david</tspan><tspan class="v">@</tspan><tspan class="k">blue-team</tspan></text>
-    <rect x="400" y="166" width="300" height="2" fill="#33465E" class="l" style="animation-delay:1.75s"/>
-    <text x="400" y="206" class="l" style="animation-delay:1.85s"><tspan class="k">OS      </tspan><tspan class="v" x="520">Defesa Cibernética (FIAP, 2026)</tspan></text>
-    <text x="400" y="236" class="l" style="animation-delay:1.95s"><tspan class="k">Role    </tspan><tspan class="v" x="520">Analista de Suporte Técnico N1/N2</tspan></text>
-    <text x="400" y="266" class="l" style="animation-delay:2.05s"><tspan class="k">Uptime  </tspan><tspan class="v" x="520">em TI desde 2024</tspan></text>
-    <text x="400" y="296" class="l" style="animation-delay:2.15s"><tspan class="k">Focus   </tspan><tspan class="v" x="520">SOC, detecção e resposta a incidentes</tspan></text>
-    <text x="400" y="326" class="l" style="animation-delay:2.25s"><tspan class="k">Stack   </tspan><tspan class="v" x="520">linux, redes, logs, pcap, bash</tspan></text>
-    <text x="400" y="356" class="l" style="animation-delay:2.35s"><tspan class="k">Locale  </tspan><tspan class="v" x="520">pt-BR, en (C1)</tspan></text>
-    <text x="400" y="386" class="l" style="animation-delay:2.45s"><tspan class="k">Status  </tspan><tspan class="p" x="520">● buscando vaga em SOC / segurança júnior</tspan></text>
+    <text x="400" y="150" class="ln1"><tspan class="k">david</tspan><tspan class="v">@</tspan><tspan class="k">blue-team</tspan></text>
+    <rect x="400" y="166" width="300" height="2" fill="#33465E" class="ln2"/>
+    <text x="400" y="206" class="ln3"><tspan class="k">OS</tspan><tspan class="v" x="520">Defesa Cibernética (FIAP, 2026)</tspan></text>
+    <text x="400" y="236" class="ln4"><tspan class="k">Role</tspan><tspan class="v" x="520">Analista de Suporte Técnico N1/N2</tspan></text>
+    <text x="400" y="266" class="ln5"><tspan class="k">Uptime</tspan><tspan class="v" x="520">em TI desde 2024</tspan></text>
+    <text x="400" y="296" class="ln6"><tspan class="k">Focus</tspan><tspan class="v" x="520">SOC, detecção e resposta a incidentes</tspan></text>
+    <text x="400" y="326" class="ln7"><tspan class="k">Stack</tspan><tspan class="v" x="520">linux, redes, logs, pcap, bash</tspan></text>
+    <text x="400" y="356" class="ln8"><tspan class="k">Locale</tspan><tspan class="v" x="520">pt-BR, en (C1)</tspan></text>
+    <g class="ln9"><circle cx="527" cy="380" r="6" fill="#C792EA" class="dot"/><text x="542" y="386" class="p">buscando vaga em SOC / segurança júnior</text><text x="400" y="386" class="k">Status</text></g>
   </g>
-  <g class="l" style="animation-delay:2.6s">
+  <g class="ln10">
     <rect x="400" y="406" width="34" height="18" fill="#152234"/><rect x="434" y="406" width="34" height="18" fill="#33465E"/>
     <rect x="468" y="406" width="34" height="18" fill="#6B7F99"/><rect x="502" y="406" width="34" height="18" fill="#4FD1C5"/>
     <rect x="536" y="406" width="34" height="18" fill="#C792EA"/><rect x="570" y="406" width="34" height="18" fill="#D6E2F0"/>
   </g>
-  <g class="l" style="animation-delay:2.8s">
+  <g class="ln11">
     <text x="40" y="452" class="m p">~ $</text>
     <rect x="96" y="436" width="11" height="21" fill="#D6E2F0" class="cur"/>
   </g>
