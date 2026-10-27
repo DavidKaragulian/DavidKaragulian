@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="200" viewBox="0 0 1200 200" role="img" aria-label="Fluxo de trabalho: coletar logs e tráfego, correlacionar eventos, detectar anomalias, responder e documentar">
+  <style>
+    .m{font-family:'JetBrains Mono','SFMono-Regular',Consolas,'DejaVu Sans Mono','Liberation Mono',monospace}
+    .t{font-size:20px;font-weight:700;fill:#D6E2F0}.s{font-size:14px;fill:#6B7F99}
+    @media (prefers-reduced-motion:reduce){.pk{display:none}}
+  </style>
+  <rect width="1200" height="200" rx="14" fill="#0D1520"/>
+  <path id="r" d="M40 100 H1160" stroke="#33465E" stroke-width="2" stroke-dasharray="6 6" fill="none"/>
+  <g class="pk">
+    <circle r="7" fill="#C792EA"><animateMotion dur="4s" repeatCount="indefinite" path="M40 100 H1160"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.05;.95;1" dur="4s" repeatCount="indefinite"/></circle>
+    <circle r="7" fill="#4FD1C5"><animateMotion dur="4s" begin="2s" repeatCount="indefinite" path="M40 100 H1160"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.05;.95;1" dur="4s" begin="2s" repeatCount="indefinite"/></circle>
+  </g>
+  <g class="m" text-anchor="middle">
+    <g><rect x="40" y="62" width="220" height="76" rx="10" fill="#152234" stroke="#33465E"/><text x="150" y="98" class="t">coletar</text><text x="150" y="122" class="s">logs · tráfego · endpoints</text></g>
+    <g><rect x="340" y="62" width="220" height="76" rx="10" fill="#152234" stroke="#33465E"/><text x="450" y="98" class="t">correlacionar</text><text x="450" y="122" class="s">eventos e linha do tempo</text></g>
+    <g><rect x="640" y="62" width="220" height="76" rx="10" fill="#152234" stroke="#33465E"/><text x="750" y="98" class="t">detectar</text><text x="750" y="122" class="s">o que foge do normal</text></g>
+    <g><rect x="940" y="62" width="220" height="76" rx="10" fill="#152234" stroke="#4FD1C5" stroke-width="2"/><text x="1050" y="98" class="t" fill="#4FD1C5" style="fill:#4FD1C5">responder</text><text x="1050" y="122" class="s">conter e documentar</text></g>
+  </g>
+</svg>

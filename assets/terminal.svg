@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-label="Terminal executando neofetch com o perfil de David Karagulian: Blue Team, Defesa Cibernética FIAP, suporte N1/N2, Linux, inglês C1, buscando vaga de SOC">
+  <defs>
+    <clipPath id="win"><rect width="1200" height="470" rx="14"/></clipPath>
+    <clipPath id="type"><rect x="96" y="70" width="0" height="30"><animate attributeName="width" from="0" to="118" begin="0.4s" dur="0.9s" fill="freeze" calcMode="discrete" values="0;15;30;44;59;74;88;103;118" keyTimes="0;.125;.25;.375;.5;.625;.75;.875;1"/></rect></clipPath>
+    <pattern id="scan" width="6" height="6" patternUnits="userSpaceOnUse"><rect width="6" height="3" fill="#4FD1C5"/></pattern>
+  </defs>
+  <style>
+    .m{font-family:'JetBrains Mono','SFMono-Regular',Consolas,'DejaVu Sans Mono','Liberation Mono',monospace;font-size:19px}
+    .k{fill:#4FD1C5;font-weight:700}.v{fill:#D6E2F0}.d{fill:#6B7F99}.p{fill:#C792EA}
+    .l{opacity:0;animation:f .01s linear forwards}
+    @keyframes f{to{opacity:1}}
+    .cur{animation:b 1s steps(1) infinite}
+    @keyframes b{50%{opacity:0}}
+    @media (prefers-reduced-motion:reduce){.l{opacity:1;animation:none}.cur{animation:none}}
+  </style>
+  <g clip-path="url(#win)">
+    <rect width="1200" height="470" fill="#0D1520"/>
+    <rect width="1200" height="40" fill="#152234"/>
+  </g>
+  <circle cx="26" cy="20" r="6" fill="#33465E"/><circle cx="46" cy="20" r="6" fill="#33465E"/><circle cx="66" cy="20" r="6" fill="#33465E"/>
+  <text x="600" y="26" text-anchor="middle" class="m d" font-size="15">david@blue-team: ~</text>
+
+  <text x="40" y="92" class="m p">~ $</text>
+  <text x="96" y="92" class="m v" clip-path="url(#type)">neofetch</text>
+
+  <!-- escudo -->
+  <g class="l" style="animation-delay:1.6s">
+    <path d="M200 140 L300 172 V250 C300 312 258 352 200 376 C142 352 100 312 100 250 V172 Z" fill="url(#scan)" opacity=".85"/>
+    <path d="M200 140 L300 172 V250 C300 312 258 352 200 376 C142 352 100 312 100 250 V172 Z" fill="none" stroke="#4FD1C5" stroke-width="3"/>
+    <rect x="174" y="236" width="52" height="44" rx="6" fill="#0D1520" stroke="#4FD1C5" stroke-width="3"/>
+    <path d="M182 236 V220 a18 18 0 0 1 36 0 V236" fill="none" stroke="#4FD1C5" stroke-width="3"/>
+    <circle cx="200" cy="256" r="5" fill="#4FD1C5"/>
+  </g>
+
+  <g class="m">
+    <text x="400" y="150" class="l" style="animation-delay:1.7s"><tspan class="k">david</tspan><tspan class="v">@</tspan><tspan class="k">blue-team</tspan></text>
+    <rect x="400" y="166" width="300" height="2" fill="#33465E" class="l" style="animation-delay:1.75s"/>
+    <text x="400" y="206" class="l" style="animation-delay:1.85s"><tspan class="k">OS      </tspan><tspan class="v" x="520">Defesa Cibernética (FIAP, 2026)</tspan></text>
+    <text x="400" y="236" class="l" style="animation-delay:1.95s"><tspan class="k">Role    </tspan><tspan class="v" x="520">Analista de Suporte Técnico N1/N2</tspan></text>
+    <text x="400" y="266" class="l" style="animation-delay:2.05s"><tspan class="k">Uptime  </tspan><tspan class="v" x="520">em TI desde 2024</tspan></text>
+    <text x="400" y="296" class="l" style="animation-delay:2.15s"><tspan class="k">Focus   </tspan><tspan class="v" x="520">SOC, detecção e resposta a incidentes</tspan></text>
+    <text x="400" y="326" class="l" style="animation-delay:2.25s"><tspan class="k">Stack   </tspan><tspan class="v" x="520">linux, redes, logs, pcap, bash</tspan></text>
+    <text x="400" y="356" class="l" style="animation-delay:2.35s"><tspan class="k">Locale  </tspan><tspan class="v" x="520">pt-BR, en (C1)</tspan></text>
+    <text x="400" y="386" class="l" style="animation-delay:2.45s"><tspan class="k">Status  </tspan><tspan class="p" x="520">● buscando vaga em SOC / segurança júnior</tspan></text>
+  </g>
+  <g class="l" style="animation-delay:2.6s">
+    <rect x="400" y="406" width="34" height="18" fill="#152234"/><rect x="434" y="406" width="34" height="18" fill="#33465E"/>
+    <rect x="468" y="406" width="34" height="18" fill="#6B7F99"/><rect x="502" y="406" width="34" height="18" fill="#4FD1C5"/>
+    <rect x="536" y="406" width="34" height="18" fill="#C792EA"/><rect x="570" y="406" width="34" height="18" fill="#D6E2F0"/>
+  </g>
+  <g class="l" style="animation-delay:2.8s">
+    <text x="40" y="452" class="m p">~ $</text>
+    <rect x="96" y="436" width="11" height="21" fill="#D6E2F0" class="cur"/>
+  </g>
+</svg>
